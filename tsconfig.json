@@ -6,9 +6,11 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "declaration": true,
+    "outDir": "dist"
   },
-  "files": [
-    "hello.ts"
+  "include": [
+    "**/*.ts"
   ]
 }
